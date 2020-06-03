@@ -106,7 +106,7 @@ jobs:
         - conda create -n test-environment python=$PYTHON_VERSION
         - source activate test-environment
         - python3.7 -m pip install pyctdev
-        - conda install -c anaconda nbsmoke flake8 pytest xarray
+        - conda install -c anaconda nbsmoke flake8 pytest=5.4.2 xarray
         - conda install -c conda-forge dask datashape scipy pytest-benchmark
         - conda install -c programfan scikit-image
         - conda install -c numba llvmlite
