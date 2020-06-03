@@ -4,10 +4,10 @@ channels:
  - gaiar
  - numba
  - programfan 
+ - smartag
 
 dependencies:
  - bokeh
- - cartopy
  - colorcet
  - graphviz
  - python-graphviz
@@ -24,7 +24,6 @@ dependencies:
  - numpy
  - pandas >=0.24.1
  - param
- - python-snappy
  - python
  - requests
  - scikit-image
