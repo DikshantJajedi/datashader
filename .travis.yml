@@ -112,6 +112,7 @@ jobs:
         #- conda install -c numba llvmlite=0.31.0
         #- python3.7 -m pip install fastparquet
         - python3.7 setup.py install
+        - find / -name "libllvmlite.so"
         #- conda install datashader
         #- conda install -c numba -c pyviz datashader
         # Install spatialpandas here because it's python 3 only and requires
