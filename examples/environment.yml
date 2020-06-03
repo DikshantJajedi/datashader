@@ -12,7 +12,6 @@ dependencies:
  - graphviz
  - python-graphviz
  - dask
- - datashader
  - distributed
  - geoviews
  - holoviews
