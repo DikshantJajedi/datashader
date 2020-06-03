@@ -1,6 +1,9 @@
 name: ds
 channels:
  - conda-forge
+ - gaiar
+ - numba
+ - programfan 
 
 dependencies:
  - bokeh
@@ -11,7 +14,6 @@ dependencies:
  - dask
  - datashader
  - distributed
- - fastparquet
  - geoviews
  - holoviews
  - ipython
@@ -24,7 +26,6 @@ dependencies:
  - param
  - python-snappy
  - python
- - rasterio
  - requests
  - scikit-image
  - scipy
